@@ -206,7 +206,7 @@ jobs:
         if: ${{ inputs.enable_ytuhd }}
         run: |
           cd ${{ github.workspace }}/YTUHD
-          git apply ${{ github.workspace }}/.github/patches/ytuhd-xcode16-fix.patch
+          git apply ${{ github.workspace }}/main/.github/patches/ytuhd-xcode16-fix.patch
 
       - name: Clone Return-YouTube-Dislikes
         if: ${{ inputs.enable_ryd }}

@@ -1,0 +1,15 @@
+diff --git a/Tweak.xm b/Tweak.xm
+index 1234567..abcdefg 100644
+--- a/Tweak.xm
++++ b/Tweak.xm
+@@ -1,3 +1,10 @@
++#import <Foundation/Foundation.h>
++#import <Foundation/NSPredicate.h>
++#import <Foundation/NSString.h>
++#import <Foundation/NSTimer.h>
++#import <Foundation/NSProcessInfo.h>
++#import <Foundation/NSUserDefaults.h>
++#include <string.h>
+ #import <YouTubeHeaders/YTPlayerViewController.h>
+ #import <YouTubeHeaders/MLABRPolicy.h>
+ #import <YouTubeHeaders/MLHAMQRPolicy.h>
